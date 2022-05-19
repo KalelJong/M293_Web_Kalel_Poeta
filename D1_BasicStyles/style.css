@@ -1,0 +1,24 @@
+a{
+    color: cyan;
+}
+
+a:hover{
+    color: red;
+}
+
+ul{
+    list-style: square;
+}
+
+table {
+    margin: auto;
+  
+}
+
+table, td,tr, thead{
+
+    border: 1 solid darkcyan;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
