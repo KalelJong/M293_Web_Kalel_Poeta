@@ -1,6 +1,14 @@
-#Geschichte von HTML 
+#Notizen H1
 
-###Arpanet (Advanced Research Projects Agency Network)
+  - [Geschichte von HTML](#geschichte-von-html)
+    - [Arpanet (Advanced Research Projects Agency Network)](#arpanet-advanced-research-projects-agency-network)
+    - [HTML (Hyper Text Markup Language)](#html-hyper-text-markup-language)
+    - [Die Web](#die-web)
+- [Doctype](#doctype)
+
+## Geschichte von HTML 
+
+### Arpanet (Advanced Research Projects Agency Network)
 
 - Wurde 1960 mit dem Ziel, ein dezentrales Netzwerk zwischen Universitäten zu erschaffen, entwickelt
 - 1990 wurde das Internet für kommerzielle Zwecke veröffentlicht
@@ -26,3 +34,11 @@
 - Web 3.0
   - Im Anfangsstadium
   - Dezentralisierung wird erreicht durch die Blockchain-Technologie und Cryptos, die SmartContracts zulassen. 
+
+
+# Doctype
+Durch den "< !DOCTYPE html>" Tag, erkennt den Browser, dass wie die Inhalte des Dokuments dargestellt werden soll.
+
+**Browserinkompatibilitäten** waren früher verbreitet und die Darstellung von Seiten konnte auf allen Browsern unterschiedlich sein. Es war wichtig den korrekte Doctype zu verwenden.
+
+
