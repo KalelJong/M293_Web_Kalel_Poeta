@@ -16,3 +16,13 @@
 - 2014: Überarbeitung des DOM und Einführung von vielen neuen Tags
 - 2016: HTML 5.1
 - 2017: HTML 5.2
+  
+### Die Web
+- Web 1.0: 
+  - Webseiten stellten hauptsächlich server-seitigen Inhalt zur Verfügung.
+- Web 2.0:
+  - Beschreibt die heutigen Web Applikationen
+  - Interaktive Webseiten (Social Media)
+- Web 3.0
+  - Im Anfangsstadium
+  - Dezentralisierung wird erreicht durch die Blockchain-Technologie und Cryptos, die SmartContracts zulassen. 
