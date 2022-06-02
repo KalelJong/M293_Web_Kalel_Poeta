@@ -1,5 +1,10 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 a{
-    color: cyan;
+    color: darkcyan;
+    font-size: 16pt;
 }
 
 a:hover{
@@ -10,15 +15,24 @@ ul{
     list-style: square;
 }
 
+li{
+    font-size: 16pt;
+}
+
 table {
     margin: auto;
   
 }
 
-table, td,tr, thead{
+table, td,tr,th{
 
-    border: 1 solid darkcyan;
     border-collapse: collapse;
+    border: 3px solid #8884FF;
+    text-align: left;
+    padding: 11px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(even){
+    background-color: #5DD9C1;
 }
