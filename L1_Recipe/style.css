@@ -19,7 +19,6 @@ html
 {
     min-width: 400px;
     font-size: 1.5rem;
-   
 }
 
 #mainCarrotCake
@@ -40,6 +39,17 @@ html
 h2
 {
     color: #AB46D2;
+}
+
+
+table, td,tr,th{
+
+    border-collapse: collapse;
+    border: 3px solid #FF6FB5;
+    text-align: left;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
 }
 
 
