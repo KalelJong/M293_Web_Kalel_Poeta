@@ -1,0 +1,34 @@
+header {
+    background-color: aquamarine;
+    display: flex;
+}
+
+main {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+}
+
+
+article {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: orchid;
+    text-align: center;
+}
+
+aside {
+    padding: 5px;
+    border-right: 1px solid black;
+}
+
+section {
+    display: flex;
+}
+
+span {
+    font-size: xx-large;
+    color: red;
+}
