@@ -1,0 +1,48 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+body,main{
+
+    font-family: 'Raleway', sans-serif;
+    color: #EEEEEE;
+    background-color: #393E46;
+}
+
+main {
+    min-width: 400px;
+    font-size: 1.5rem;
+    display: block;
+}
+
+#sectionFlex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#sectionGrid{
+    display: grid;
+    grid-template: auto;
+}
+
+article{
+    background-color: #EEEEEE ;
+    color: black;
+    width: 500px;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+ img{
+    width: 100%;
+    border-radius: 20px;
+ }
+
+ #sectionFlex article {
+    width: 250px;
+ 
+}
