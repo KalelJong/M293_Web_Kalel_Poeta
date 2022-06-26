@@ -27,7 +27,10 @@ main {
 
 #sectionGrid{
     display: grid;
-    grid-template: auto;
+    grid-template-columns: 20% auto auto;
+    /* 3 Spalten */
+    grid-gap: 1em;
+    
 }
 
 article{
@@ -36,6 +39,18 @@ article{
     width: 500px;
     padding: 0.5em;
     border-radius: 10px;
+}
+
+.grow
+{
+    transition: all .2s ease-in-out;
+}
+
+article:hover
+{
+    transform: scale(1.04);
+    box-shadow: 0 0 11px rgba(255, 255, 255, 0.733);
+    
 }
  img{
     width: 100%;
