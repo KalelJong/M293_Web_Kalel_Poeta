@@ -27,16 +27,15 @@ main {
 
 #sectionGrid{
     display: grid;
-    grid-template-columns: 20% auto auto;
-    /* 3 Spalten */
-    grid-gap: 1em;
+    max-width: max-content;
+    grid-gap: 20px;
     
 }
 
 article{
     background-color: #EEEEEE ;
     color: black;
-    width: 500px;
+    width: 250px;
     padding: 0.5em;
     border-radius: 10px;
 }
@@ -52,12 +51,46 @@ article:hover
     box-shadow: 0 0 11px rgba(255, 255, 255, 0.733);
     
 }
- img{
+ img {
     width: 100%;
     border-radius: 20px;
  }
 
- #sectionFlex article {
-    width: 250px;
+ #gridItem1 {
+    grid-column: 1;
+    grid-row: 1;
+ }
+
+ #gridItem2 {
+    grid-column: 2;
+    grid-row: 1;
+ }
+
+ #gridItem3 {
+     grid-column: 3;
+     grid-row: 1;
+ }
+
+ #gridItem4 {
+    grid-column: 1;
+    grid-row: 2;
+ }
+
+ #gridItem5 {
+    grid-column: 2;
+    grid-row: 2;
+ }
+
+ #gridItem6 {
+    grid-column: 3;
+    grid-row: 2;
+ }
  
-}
+ a {
+     text-decoration: none;
+ }
+
+ a:hover {
+     text-decoration: none;
+     cursor: pointer;
+ }
