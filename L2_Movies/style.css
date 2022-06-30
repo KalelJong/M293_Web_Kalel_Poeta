@@ -1,7 +1,7 @@
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
     padding: 10px;
 }
 
@@ -29,15 +29,19 @@ main {
     display: grid;
     max-width: max-content;
     grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     
 }
 
-article{
-    background-color: #EEEEEE ;
+article {
+    background-color: #EEEEEE;
     color: black;
-    width: 250px;
     padding: 0.5em;
     border-radius: 10px;
+}
+
+#sectionFlex article{
+    width: 250px;
 }
 
 .grow
@@ -56,7 +60,7 @@ article:hover
     border-radius: 20px;
  }
 
- #gridItem1 {
+ /* #gridItem1 {
     grid-column: 1;
     grid-row: 1;
  }
@@ -84,7 +88,7 @@ article:hover
  #gridItem6 {
     grid-column: 3;
     grid-row: 2;
- }
+ } */
  
  a {
     color: black;
