@@ -1,0 +1,29 @@
+
+#logo
+{
+    height: 90px;
+}
+
+body, main
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav,a
+{  
+    display:flex;
+    text-decoration: none;
+    color: black;
+}
+
+nav
+{
+    border-bottom: 1px solid black;
+}
+
+.navText
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
