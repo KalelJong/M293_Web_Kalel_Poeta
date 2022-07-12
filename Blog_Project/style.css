@@ -36,12 +36,8 @@ nav
 }
 
 .banner{
-    /* margin-top: 1rem;
-    width: 100%;
-    border-radius: 20px; */
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("pics/banner_guitar.jpg");
-    height: 600px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,4 +63,15 @@ nav
  .grow:hover{
     transform: scale(1.04);
         box-shadow: 0 0 11px rgba(255, 255, 255, 0.733);
+ }
+
+ .bannerText{
+    position: absolute;
+    top: 50%;
+    font-size: 4em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
  }
