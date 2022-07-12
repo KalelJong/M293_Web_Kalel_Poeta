@@ -95,7 +95,7 @@ nav
  .articleThumbnail
  {
     width: 100%;
-    height: 80%;
+    height: 65%;
     border-radius: 15px;
     object-fit: cover;
  }
@@ -127,6 +127,36 @@ nav
 {
     display: grid;
     grid-gap: 50px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 0 15px;
+}
+
+.authorPic
+{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.authorName
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.articleTitle
+{
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.articleDate
+{
+    font-size: 1.2em;
 }
