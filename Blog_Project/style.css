@@ -84,8 +84,8 @@ nav
  .hobbyArticle
  {
     background-color: #EEEEEE;
-    width: 400px;
-    height: 250px;
+    /* width: 400px; */
+    /* height: 250px; */
     color: black;
     padding: 0.5em;
     border-radius: 10px;
@@ -94,14 +94,16 @@ nav
 
  .articleThumbnail
  {
-    height: 60%;
+    width: 100%;
+    height: 80%;
     border-radius: 15px;
+    object-fit: cover;
  }
 
  .chipsSection
  {
     display: flex;
-
+    flex-wrap: wrap;
     gap: 5px;
  }
 
@@ -124,6 +126,7 @@ nav
 .hobbySection
 {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 0 15px;
 }
