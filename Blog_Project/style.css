@@ -84,12 +84,13 @@ nav
  .hobbyArticle
  {
     background-color: #EEEEEE;
-    /* width: 400px; */
-    /* height: 250px; */
     color: black;
     padding: 0.5em;
     border-radius: 10px;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
  }
 
  .articleThumbnail
