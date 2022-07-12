@@ -85,7 +85,7 @@ nav
  {
     background-color: #EEEEEE;
     color: black;
-    padding: 0.5em;
+    padding: 15px;
     border-radius: 10px;
     margin: 0;
     display: flex;
@@ -146,13 +146,15 @@ nav
     margin-bottom: auto;
 }
 
-.flex
+.articleAuthor
 {
     display: flex;
+    gap: 10px;
 }
 
 .articleTitle
 {
+    display: flex;
     justify-content: space-between;
     gap: 15px;
 }
