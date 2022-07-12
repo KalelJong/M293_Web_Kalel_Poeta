@@ -10,6 +10,11 @@ body, main
     margin: 0;
 }
 
+main, .hobbyArticle
+{
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.333);
+}
+
 nav,a
 {  
     display:flex;
@@ -61,8 +66,8 @@ nav
  }
 
  .grow:hover{
-    transform: scale(1.04);
-        box-shadow: 0 0 11px rgba(255, 255, 255, 0.733);
+    transform: scale(1.03);
+    box-shadow: 0 0 11px rgba(255, 255, 255, 0.733);
  }
 
  .bannerText{
@@ -75,3 +80,51 @@ nav
     text-align: center;
     margin: 0;
  }
+
+ .hobbyArticle
+ {
+    background-color: #EEEEEE;
+    width: 400px;
+    height: 250px;
+    color: black;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin: 0;
+ }
+
+ .articleThumbnail
+ {
+    height: 60%;
+    border-radius: 15px;
+ }
+
+ .chipsSection
+ {
+    display: flex;
+
+    gap: 5px;
+ }
+
+ .categoryChip 
+ {
+    background-color: #EEEEEE;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    line-height: 5px;
+    font-size: 1.1em;
+ }
+
+ .center section
+ {
+    margin-bottom: 3em;
+ }
+
+.hobbySection
+{
+    display: grid;
+    max-width: max-content;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
