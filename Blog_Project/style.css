@@ -191,6 +191,25 @@ nav
     justify-content: center;
 }
 
+footer
+{
+    background-color: rgb(97, 97, 97);
+    color: white;
+}
+
+
+footer p
+{
+    margin-bottom: 0;
+}
+
+.footerInfo
+{
+    text-align: center;
+}
+
+
+
 .authorPic
 {
     border-radius: 100%;
