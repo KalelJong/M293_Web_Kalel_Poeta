@@ -67,6 +67,16 @@ nav
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/uYg6hTHHK18/maxresdefault.jpg");
 }
 
+.bannerContact
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://d3thpuk46eyjbu.cloudfront.net/uploads/production/13839/1596566706/original/20200228142303-GettyImages-1087147182.jpeg");
+}
+
+.contactPic
+{
+    border-radius: 100%;
+}
+
  .center {
      margin-left: auto;
      margin-right: auto;
@@ -90,6 +100,18 @@ nav
 
  .growNavItem:hover{
     transform: scale(1.05);
+ }
+
+ .authorContact
+ {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .authorInfo
+ {
+    margin-top: auto;
+     margin-bottom: auto;
  }
 
  .bannerText{
@@ -184,6 +206,11 @@ nav
 .articleDate
 {
     font-size: 1.2em;
+}
+
+.tab
+{
+    display: block;
 }
 
 @media only screen and (max-width: 600px) 
