@@ -163,6 +163,16 @@ nav
     font-size: 1.1em;
  }
 
+ .subjectChip
+ {
+    background-color: #EEEEEE;
+        border-radius: 30px;
+        width: 300px;
+        text-align: center;
+        line-height: 5px;
+        font-size: 1.1em;
+ }
+
  .center section
  {
     margin-bottom: 3em;
@@ -174,6 +184,11 @@ nav
     grid-gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 0 15px;
+}
+
+.subjectSection
+{
+    justify-content: center;
 }
 
 .authorPic
