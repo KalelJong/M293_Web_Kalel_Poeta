@@ -208,6 +208,15 @@ footer p
     text-align: center;
 }
 
+.newsletter
+{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+    border: 0px solid;
+}
+
 
 
 .authorPic
@@ -216,6 +225,19 @@ footer p
     width: 60px;
     height: 60px;
     object-fit: cover;
+}
+
+.contactForm
+{
+    justify-items: center;
+}
+
+.submit
+{
+    background-color: rgb(111, 48, 174);
+    color: white;
+    border-radius: 40px;
+    font-family: ;
 }
 
 .authorName
